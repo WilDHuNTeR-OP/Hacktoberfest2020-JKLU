@@ -1,0 +1,66 @@
+#include<iostream>
+#include<math.h>
+#include<graphics.h>
+#define con 3.142857143/180
+using namespace std;
+int main()
+{
+int gd=DETECT,gm;
+int a[3][3]; // object matrix
+int I[3][3],ch;
+int i,j,tx,ty,sx,sy;
+double angle;
+int k;
+int prod[3][3];
+char ans;
+a[0][2]=1;
+a[1][2]=1;
+a[2][2]=1;
+cout<<"\nEnter the Object Matrix: ";
+for(i=0;i<3;i++)
+{
+for(j=0;j<2;j++)
+{
+cin>>a[i][j];
+}
+}
+cout<<"\nObject Matrix: "<<endl;
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+cout<<a[i][j]<<"\t";
+}
+cout<<"\n";
+}
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+if(i==j)
+{
+I[i][j]=1;
+}
+else
+{
+I[i][j]=0;
+}
+}
+}
+do
+{
+cout<<"\n1.Translate \n2.Scale \n3.Rotate \nEnter your choice: ";
+cin>>ch;
+switch(ch)
+{
+case 1:
+cout<<"\nEnter tx and ty: ";
+cin>>tx>>ty;
+initgraph(&gd,&gm,NULL);
+line(a[0][0],a[0][1],a[1][0],a[1][1]);
+line(a[1][0],a[1][1],a[2][0],a[2][1]);
+line(a[0][0],a[0][1],a[2][0],a[2][1]);
+I[2][0]=tx;
+I[2][1]=ty;
+cout<<"\nTranslation Matrix: "<<endl;
+}
