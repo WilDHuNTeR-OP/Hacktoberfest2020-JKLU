@@ -33,6 +33,7 @@ It is often the first program written by people learning to code.
 |15|[Typescript](https://github.com/aryangulati/Hacktoberfest2020/blob/main/Hello_World/hello.ts)|[aryangulati](https://github.com/aryangulati)|
 |16|[XML](https://github.com/aryangulati/Hacktoberfest2020/blob/main/Hello_World/hello.xlsm)|[aryangulati](https://github.com/aryangulati)|
 |17|[MATLAB](https://github.com/khushi2912/Hacktoberfest2020/blob/main/Hello_World/hello.m)|[Anshu Kumari Mahato](https://github.com/Anshu-111)|
+|18|[HTML](https://github.com/clintondsza/Hacktoberfest2020-JKLU/blob/main/Hello_World/hello.html)|[Clinton dsza](https://github.com/clintondsza)|
 
 
 ![Hello](https://user-images.githubusercontent.com/72185115/94937816-b8da3300-04ed-11eb-8d36-3d42ad7b857c.gif)
